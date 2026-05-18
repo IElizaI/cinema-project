@@ -10,3 +10,9 @@ schemeSvg.addEventListener('click', (event) => {
         totalPriceTag.textContent = totalPrice;
     }
 })
+
+const menuButton = document.querySelector('.m-menu');
+const menu = document.querySelector('.menu');
+menuButton.addEventListener('click', (event) => {
+    menu.classList.toggle('is-open');
+})
